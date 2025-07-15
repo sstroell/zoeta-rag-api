@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def root():
+def read_root():
     return {"message": "Zoeta RAG API is running"}
