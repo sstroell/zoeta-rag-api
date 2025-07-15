@@ -1,5 +1,3 @@
 
+uvicorn[standard]
 fastapi
-uvicorn
-llama-index
-chromadb
