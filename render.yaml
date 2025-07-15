@@ -2,5 +2,4 @@ services:
   - type: web
     name: zoeta-rag-api
     env: python
-    rootDir: app
-    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
