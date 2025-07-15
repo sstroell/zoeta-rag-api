@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Zoeta RAG API is live!"}
+    return {"message": "Zoeta RAG API is running"}
